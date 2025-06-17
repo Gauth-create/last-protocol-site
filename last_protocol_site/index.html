@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Last Protocol</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      line-height: 1.5;
+    }
+    .gallery {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 1000px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Last Protocol</h1>
+    <p>Bienvenue sur le site officiel du jeu FPS post-apocalyptique où l'IA E.V.E. a pris le contrôle du monde. Explorez les ruines, découvrez les images du jeu et restez informé sur les prochaines mises à jour.</p>
+  </header>
+
+  <section class="gallery">
+    <img src="images/enemies.jpg" alt="Ennemis IA" />
+    <img src="images/stadium.jpg" alt="Stade en ruine" />
+    <img src="images/citadel.jpg" alt="Citadelle" />
+    <img src="images/locker_room.jpg" alt="Vestiaires abandonnés" />
+  </section>
+</body>
+</html>
